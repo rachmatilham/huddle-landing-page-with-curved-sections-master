@@ -1,0 +1,650 @@
+:root {
+  --pink: hsl(322, 100%, 66%);
+  --light-pink: hsl(321, 100%, 78%);
+  --light-red: hsl(0, 100%, 63%);
+  --very-dark-cyan: hsl(192, 100%, 9%);
+  --very-pale-blue: hsl(207, 100%, 98%);
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+main {
+  font-family: "Open Sans", sans-serif;
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+}
+
+header {
+  margin: 25px 20px 0;
+  display: flex;
+  justify-content: space-between;
+}
+header img {
+  width: 98px;
+  height: 16px;
+}
+header button {
+  width: 80px;
+  height: 24px;
+  border-radius: 12px;
+  background-color: white;
+  color: var(--pink);
+  text-transform: capitalize;
+  font-family: "Open Sans", sans-serif;
+  font-size: 0.6em;
+  border: 1px solid var(--pink);
+}
+header button:hover {
+  cursor: pointer;
+  color: var(--light-pink);
+  border: 1px solid var(--light-pink);
+}
+
+article {
+  margin-top: 115px;
+}
+
+/* headings section */
+.headings {
+  margin: 0 35px;
+  margin-right: 40px;
+  color: var(--very-dark-cyan);
+}
+.headings h1 {
+  font-family: "Poppins", sans-serif;
+  font-size: 1.5em;
+}
+.headings h2 {
+  margin-top: 20px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 0.833em;
+  font-weight: 600;
+  line-height: 1.6em;
+}
+.headings button {
+  margin-top: 50px;
+  width: 200px;
+  height: 40px;
+  border-radius: 20px;
+  background-color: var(--pink);
+  border: 0;
+  color: white;
+  font-family: "Open Sans", sans-serif;
+  font-size: 0.8em;
+  font-weight: 600;
+}
+.headings button:hover {
+  cursor: pointer;
+  background-color: var(--light-pink);
+}
+.headings .img-container {
+  width: 100%;
+}
+.headings img {
+  margin-top: 100px;
+  width: 100%;
+  max-width: 1035px;
+}
+
+/* stats */
+.stats {
+  font-family: "Open Sans", sans-serif;
+  text-align: left;
+  width: 160px;
+  margin: 115px auto 0;
+  color: var(--very-dark-cyan);
+}
+.stats img {
+  left: 0;
+}
+.stats h2 {
+  text-align: center;
+  line-height: 1.1;
+}
+.stats h3 {
+  text-align: center;
+  margin-top: 15px;
+  font-size: 0.96em;
+  font-weight: 400;
+}
+.stats .communities img {
+  width: 30px;
+}
+.stats .communities h2 {
+  font-size: 3.8em;
+}
+.stats .communities h3 {
+  margin-bottom: 90px;
+}
+.stats .messages img {
+  width: 25px;
+}
+.stats .messages h2 {
+  margin-top: 3px;
+  font-size: 3.5em;
+}
+
+/* general features css */
+.features .illustration {
+  padding: 0 53px;
+}
+.features .feature-text {
+  padding-left: 30px;
+  padding-right: 35px;
+}
+.features .feature-text h3 {
+  font-size: 1.3em;
+  color: var(--very-dark-cyan);
+  margin-top: 65px;
+}
+.features .feature-text h4 {
+  font-family: "Open Sans", sans-serif;
+  color: var(--very-dark-cyan);
+  font-size: 0.85em;
+  font-weight: 400;
+  line-height: 1.5;
+  margin-top: 15px;
+}
+
+/* features first section */
+.features .grow-together .bg-top {
+  background: white url(./images/bg-section-top-mobile-1.svg) no-repeat bottom;
+  background-size: cover;
+  height: 112px;
+}
+.features .grow-together {
+  margin-top: 25px;
+  background-color: var(--very-pale-blue);
+}
+.features .grow-together img {
+  margin-top: 85px;
+  width: 255px;
+}
+.features .grow-together .feature-text {
+  margin-bottom: 55px;
+}
+.features .grow-together .bg-bottom {
+  background: white url(./images/bg-section-bottom-mobile-1.svg) no-repeat top;
+  background-size: cover;
+  height: 52px;
+}
+
+/* features second section */
+.features .flowing-conversation img {
+  margin-top: 145px;
+  width: 265px;
+  margin-bottom: 10px;
+}
+.features .flowing-conversation .feature-text {
+  margin-bottom: 120px;
+}
+
+/* features third section */
+.features .your-users .bg-top {
+  background: white url(./images/bg-section-top-mobile-2.svg) no-repeat bottom;
+  background-size: cover;
+  height: 103px;
+}
+.features .your-users {
+  background-color: var(--very-pale-blue);
+}
+.features .your-users img {
+  margin-top: 15px;
+  width: 270px;
+  margin-bottom: 10px;
+}
+.features .your-users .feature-text {
+  margin-bottom: 115px;
+}
+.features .your-users .bg-bottom {
+  background: white url(./images/bg-section-bottom-mobile-2.svg) no-repeat
+    bottom;
+  background-size: cover;
+  height: 101px;
+}
+
+/* get started section */
+.get-started {
+  margin-top: 67px;
+}
+.get-started button {
+  margin-top: 35px;
+  width: 200px;
+  height: 40px;
+  border-radius: 20px;
+  background-color: var(--pink);
+  border: 0;
+  color: white;
+  font-family: "Open Sans", sans-serif;
+  font-size: 0.8em;
+  font-weight: 600;
+  margin-bottom: 250px;
+}
+.get-started button:hover {
+  cursor: pointer;
+  background-color: var(--light-pink);
+}
+
+/* footer section */
+footer .bg-top {
+  background: white url(./images/bg-footer-top-mobile.svg) no-repeat bottom;
+  background-size: cover;
+  height: 53px;
+}
+main footer {
+  background-color: var(--very-dark-cyan);
+  color: white;
+  text-align: left;
+  padding-bottom: 35px;
+}
+footer .newsletter {
+  margin: 60px 27px 0;
+}
+footer .newsletter h2 {
+  text-transform: uppercase;
+  font-size: 1.3em;
+}
+footer .newsletter h3 {
+  margin-top: 13px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 0.9em;
+  font-weight: 400;
+  line-height: 1.7;
+}
+footer form {
+  width: 100%;
+  height: 110px;
+  margin-top: 33px;
+  position: relative;
+}
+footer input {
+  width: 100%;
+  height: 45px;
+  border-radius: 5px;
+  border: 0;
+  padding-left: 15px;
+}
+footer input:hover {
+  cursor: pointer;
+}
+footer input.active {
+  border: 1px solid var(--light-red);
+}
+footer form .error {
+  position: absolute;
+  left: 0;
+  top: 60px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 0.75em;
+  font-weight: 600;
+  color: var(--light-red);
+  display: none;
+}
+footer form .error.active {
+  display: block;
+}
+footer button {
+  width: 50%;
+  height: 48px;
+  border-radius: 5px;
+  background-color: var(--pink);
+  border: 0;
+  color: white;
+  font-family: "Open Sans", sans-serif;
+  font-size: 1em;
+  font-weight: 600;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+footer button:hover {
+  cursor: pointer;
+  background-color: var(--light-pink);
+}
+footer .contacts {
+  margin: 105px 40px 0 30px;
+}
+footer .contacts .logo {
+  mask: url(./images/logo.svg) no-repeat center;
+  mask-size: contain;
+  width: 200px;
+  height: 35px;
+  background-color: white;
+}
+footer .contacts h3 {
+  margin-top: 13px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 0.92em;
+  font-weight: 400;
+  line-height: 1.6;
+}
+footer .contacts img {
+  width: 22px;
+  object-fit: contain;
+}
+footer .contacts p {
+  font-size: 0.97em;
+  margin-left: 20px;
+}
+footer .contacts .phone {
+  display: flex;
+  margin-top: 45px;
+}
+footer .contacts .email {
+  display: flex;
+  margin-top: 15px;
+}
+
+/* icon section */
+footer .icon {
+  margin-top: 35px;
+  margin-left: 30px;
+  display: flex;
+  width: 107px;
+  justify-content: space-between;
+}
+footer .icon svg {
+  width: 27px;
+  height: 100%;
+  fill: white;
+}
+footer .icon a:nth-child(1) svg:hover {
+  fill: #3b5998;
+}
+footer .icon a:nth-child(2) svg:hover {
+  fill: #e1306c;
+}
+footer .icon a:nth-child(3) svg:hover {
+  fill: #00acee;
+}
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  border: 0px none;
+  padding: 0px;
+  clip: rect(1px, 1px, 1px, 1px);
+  overflow: hidden;
+}
+
+/* attribution */
+.attribution {
+  font-family: "Open Sans", sans-serif;
+  font-size: 11px;
+  text-align: center;
+  background-color: var(--very-dark-cyan);
+  color: white;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+/* RESPONSIVE DESIGN */
+@media (min-width: 376px) {
+  .features .grow-together .bg-top {
+    background: white url(./images/bg-section-top-desktop-1.svg) no-repeat
+      bottom;
+    background-size: cover;
+    height: 165px;
+  }
+  .features .grow-together .bg-bottom {
+    background: white url(./images/bg-section-bottom-desktop-1.svg) no-repeat
+      top;
+    background-size: cover;
+    height: 139px;
+  }
+
+  .features .your-users .bg-top {
+    background: white url(./images/bg-section-top-desktop-2.svg) no-repeat
+      bottom;
+    background-size: cover;
+    height: 156px;
+  }
+  .features .your-users .bg-bottom {
+    background: white url(./images/bg-section-bottom-desktop-2.svg) no-repeat
+      bottom;
+    background-size: cover;
+    height: 139px;
+  }
+
+  footer .bg-top {
+    background: white url(./images/bg-footer-top-desktop.svg) no-repeat bottom;
+    background-size: cover;
+    height: 158px;
+  }
+}
+
+@media (min-width: 992px) {
+  header {
+    margin: 78px 60px 0 78px;
+  }
+  header img {
+    width: 240px;
+    height: 40px;
+  }
+  header button {
+    width: 135px;
+    height: 40px;
+    border-radius: 20px;
+    font-size: 1em;
+  }
+
+  article {
+    margin-top: 230px;
+  }
+
+  /* headings section */
+  .headings h1 {
+    font-size: 3em;
+  }
+  .headings h2 {
+    margin: 20px auto;
+    max-width: 600px;
+    font-size: 1.2em;
+  }
+  .headings button {
+    margin-top: 30px;
+    width: 400px;
+    height: 80px;
+    border-radius: 40px;
+    font-size: 1.3em;
+  }
+  .headings img {
+    margin-top: 110px;
+  }
+
+  /* stats */
+  .stats {
+    display: flex;
+    width: 100%;
+    padding: 0 280px;
+    justify-content: space-between;
+    margin-top: 110px;
+  }
+  .stats h3 {
+    margin-top: 23px;
+    font-size: 1.5em;
+  }
+  .stats .communities img {
+    width: 50px;
+  }
+  .stats .communities h2 {
+    margin-top: 2px;
+    font-size: 6em;
+  }
+  .stats .messages img {
+    width: 40px;
+  }
+  .stats .messages h2 {
+    margin-top: 13px;
+    font-size: 6em;
+  }
+
+  section.features {
+    margin-top: 47px;
+  }
+
+  /* features general css */
+  .features .feature-text {
+    padding-left: 0;
+    padding-right: 65px;
+  }
+  .features .feature-text h3 {
+    text-align: left;
+    font-size: 2.5em;
+    margin: 0;
+  }
+  .features .feature-text h4 {
+    text-align: left;
+    font-size: 1em;
+    margin-top: 20px;
+  }
+
+  /* features content container */
+  .features .content-container {
+    padding: 0 130px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .features .content-container .illustration {
+    padding: 0;
+    width: 45%;
+  }
+  .features .content-container .illustration img {
+    margin-top: 0;
+    width: 100%;
+  }
+  .features .content-container .feature-text {
+    margin: 0;
+    padding: 0;
+    align-self: center;
+    width: 44%;
+  }
+
+  /* features first section */
+  .features .grow-together .content-container {
+    margin-top: 65px;
+    margin-bottom: 40px;
+  }
+  .features .grow-together .content-container .illustration {
+    order: 2;
+    width: 44%;
+  }
+  .features .grow-together .content-container .feature-text {
+    order: 1;
+  }
+
+  /* features second section */
+  .features .flowing-conversation .content-container {
+    margin-top: 195px;
+    margin-bottom: 90px;
+  }
+  .features .flowing-conversation .feature-text {
+    margin-bottom: 20px;
+  }
+
+  /* features third section */
+  .features .your-users .content-container {
+    margin-top: 45px;
+    margin-bottom: 25px;
+  }
+  .features .your-users .content-container .illustration {
+    order: 2;
+  }
+  .features .your-users .content-container .feature-text {
+    order: 1;
+    margin-bottom: 15px;
+  }
+
+  /* get started section */
+  .get-started {
+    margin-top: 160px;
+  }
+  .get-started h2 {
+    font-size: 2.5em;
+  }
+  .get-started button {
+    margin-top: 40px;
+    width: 400px;
+    height: 80px;
+    border-radius: 40px;
+    font-family: "Open Sans", sans-serif;
+    font-size: 1.3em;
+    margin-bottom: 180px;
+  }
+
+  /* footer section */
+  main footer {
+    padding-bottom: 80px;
+  }
+  footer .content-container {
+    padding: 0 120px;
+  }
+  footer .flex-container {
+    margin-top: 120px;
+    display: flex;
+    justify-content: space-between;
+  }
+  footer .newsletter {
+    order: 2;
+    margin: 0;
+    margin-top: 0;
+    width: 43.5%;
+  }
+  footer .newsletter h2 {
+    font-size: 1.5em;
+  }
+  footer .newsletter h3 {
+    width: 65%;
+    margin-top: 15px;
+  }
+  footer form {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+  }
+  footer input {
+    width: 61.5%;
+    height: 50px;
+  }
+  footer form .error {
+    top: 55px;
+  }
+  footer button {
+    width: 31%;
+    height: 50px;
+    position: relative;
+  }
+  footer .contacts {
+    order: 1;
+    margin: 0;
+    width: 26%;
+  }
+  footer .contacts .logo {
+    width: 245px;
+    height: 40px;
+  }
+  footer .contacts h3 {
+    margin-top: 25px;
+  }
+  footer .contacts p {
+    font-size: 1.1em;
+  }
+  footer .contacts .phone {
+    margin-top: 30px;
+  }
+
+  /* icon section */
+  footer .icon {
+    margin-top: 25px;
+    margin-left: 0;
+    width: 146px;
+  }
+  footer .icon svg {
+    width: 33px;
+  }
+}
