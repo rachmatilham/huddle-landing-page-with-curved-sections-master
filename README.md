@@ -29,7 +29,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Solution page on Frontend Mentor]()
+- Solution URL: [Solution page on Frontend Mentor](https://www.frontendmentor.io/solutions/huddle-landing-page-with-curved-sections-kZT1jhYsR)
 - Github Pages URL: [Github Pages](https://rachmatilham.github.io/huddle-landing-page-with-curved-sections-master/)
 
 ## My process

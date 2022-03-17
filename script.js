@@ -14,3 +14,8 @@ submitButton.addEventListener("click", (event) => {
     document.querySelector(".error").classList.remove("active");
   }
 });
+newsletterInput.addEventListener("focus", (event) => {
+  event.preventDefault();
+  newsletterInput.classList.remove("active");
+  document.querySelector(".error").classList.remove("active");
+});
