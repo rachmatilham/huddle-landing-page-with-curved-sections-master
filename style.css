@@ -310,7 +310,9 @@ footer .contacts {
   margin: 105px 40px 0 30px;
 }
 footer .contacts .logo {
+  -webkit-mask: url(./images/logo.svg) no-repeat center;
   mask: url(./images/logo.svg) no-repeat center;
+  -webkit-mask-size: contain;
   mask-size: contain;
   width: 200px;
   height: 35px;
